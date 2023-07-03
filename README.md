@@ -2,9 +2,9 @@
 
 This is a frontend project made by using Html,css,Javascript
 
-sorry for the inconvenience of not uploading as a folder, anyway just make Images folder for all jpeg files and Audio for mp3 files
+sorry for the inconvenience of not uploading as a folder, anyway just make Images folder for all jpeg files and Audio for mp3 files.
 
-Each line is commented in javascript, So u can understand the need of each line. So just flow through the code
+Each line is commented in javascript, So you can understand the need of each line. So just flow through the code
 
 #AIM/GOAL
 The goal is to create a basic webpage whivh will play some music when that instrument option is clicked 
