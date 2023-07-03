@@ -21,6 +21,8 @@ Just a few heads before running the final code.
 1. The audio files are picked from internet, each audio file with different duration. So if you click multiple
 2. instrument consectively, there is a chance of playing the sounds of both instruments simultaneously.
 3. The best way to avoid, find and replace the audio files with same duration.
+4. I have 1st created buttons in html code and then i deleted them, because,i need buttons in javascript also, for the ease of working i have commented out the button code in html.Anyhow its not required while running with javascript. But neeede dutiong the stage dof html and css part
+   
 
 #The end
 Run the html file and have fun
