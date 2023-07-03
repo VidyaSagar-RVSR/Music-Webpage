@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    /* to remove the uncessary side spaces in the webpage */
+
+
+    display: flex;
+
+    flex-direction: column;
+    /* to change flex direction,default is row */
+    align-items: center;
+    /* align centre position horizonntally ,(if the flex dirn is row, it align centre position vertically)*/
+    /* to bring the items center */
+    height: 100vh;
+    /* body will be size of any device screen,the items will be in centre */
+
+    justify-content: center;
+    /* to bring the mudic content to the cetnret of the page(vertical + horizontal) */
+
+    background-color: rgba(132, 143, 230, 0.906);
+    background-image: url(Images/bodybg\ _image.jpeg);
+    
+}  
+
+
+/* styling for the h1 music webpage line */
+h1{
+    font-size: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    /* spacing between the h1 letters  */
+    color: rgb(69, 205, 119);
+    text-shadow: 2px 4px 6px rgb(210, 108, 198);
+     
+    white-space: nowrap;
+    /* nowrap so that the h1 line wont get wrapped if the screen is decresed  */
+}
+
+
+.container{
+    text-align: center;
+    /* to keep every buttons in the center  */
+}
+
+/* syling for the buutons */
+.btn{
+    padding: 90px 70px;
+    border: none;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 30px;
+    min-width: 200px;
+    /* to make every button size to be same  */
+    box-shadow: 0 4px 8px  rgb(210, 108, 198);
+    background-image: url("/Images/Drums.png");
+    background-size: cover;
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px black;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    color: red;
+    opacity: 0.8;
+}
+
+
+/* to create zoom in effect while clincking the button  */
+.btn:active{
+    background-size: 150%;
+
+}
